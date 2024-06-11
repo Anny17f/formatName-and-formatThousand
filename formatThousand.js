@@ -1,7 +1,5 @@
-// formatThousand.js
-
-function formatThousand(number) {
+function formatThousand(number){
   return number.toLocaleString();
 }
 
-module.exports = formatThousand;
+console.log(formatThousand(1000000));
